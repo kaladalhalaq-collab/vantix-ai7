@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html,body{background:#03070D;color:#F4F8FF;min-height:100%}
+.glass{background:rgba(6,19,33,.62);border:1px solid rgba(0,217,255,.18);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.fallback-bg{position:fixed;inset:0;z-index:-2;background:radial-gradient(60% 50% at 70% 20%,rgba(22,136,255,.28),transparent),radial-gradient(40% 40% at 20% 80%,rgba(108,59,255,.22),transparent),#03070D}
